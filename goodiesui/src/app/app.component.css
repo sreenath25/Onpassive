@@ -1,0 +1,67 @@
+html, body {
+	height: 100%;
+	margin: 0px;
+	font-family: "Roboto";
+    font-style: normal;
+    font-size: 15px;
+}
+
+.container-fluid {
+    height: 100%;
+}
+
+.h100{
+	height: 100%;
+}
+
+.mainPage{
+	height:50px;
+	background-color:#427c97;
+}
+.mainLogo {
+	display: inline-block;
+    padding: 0rem 2rem;
+	color:white;
+	font-weight:900;	
+}
+
+.mainPageProducts { 
+    padding: 0rem 3rem;
+	display: inline-block;
+}
+
+.mainPageProducts >div {
+	display: inline-block;
+	padding:13px 20px;
+	color:#adadad;
+}
+
+.mainPageProducts >div >a{
+	color:#adadad;
+	text-decoration:none;
+}
+
+.mainPageProducts >div:hover >a {
+	color:white;
+}
+
+.mainPageSignups { 
+	display: inline-block;
+    float : right;
+    padding: 0rem 3rem;
+}
+
+.mainPageSignups >div {
+	display: inline-block;
+	padding:13px 20px;
+	color:#adadad;
+}
+
+.mainPageSignups >div >a{
+	color:#adadad;
+	text-decoration:none;
+}
+
+.mainPageSignups >div:hover >a {
+	color:white;
+}
